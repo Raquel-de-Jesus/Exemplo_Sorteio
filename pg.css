@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+}
+
+
+#tt {
+    margin-bottom: 50px;
+}
+
+#mockup {
+    background-color: #000;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#sorteio {
+    width: 85%;
+    height: 500px;
+    object-fit: fill;
+}
+
+#premio {
+    height: 250px;
+    width: 100%;
+}
+
+#substituir {
+    visibility: hidden;
+    display: none;
+}
+
+#substituir.show {
+    visibility: visible;
+    display: block;
+    /*align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;*/
+}
+
+.card {
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
